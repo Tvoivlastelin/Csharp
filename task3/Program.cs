@@ -7,9 +7,11 @@ Console.WriteLine("Введите число");
 
 string answer = Console.ReadLine();
 int a = Convert.ToInt32(answer); 
+
+int b = a % 2;
  
-if (a == (a % 2)) 
+if (b == 0) 
  {
-     Console.WriteLine("нет!");
+     Console.WriteLine("да!");
  }
- else Console.WriteLine("да!");
+ else Console.WriteLine("нет!");
