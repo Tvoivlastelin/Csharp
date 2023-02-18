@@ -11,14 +11,29 @@
 // 2147483647
 
 Console.WriteLine("Введите любое число");
- int number = Convert.ToInt32(Console.ReadLine());
- string mas =  Convert.ToString(number);
+int num = Convert.ToInt32(Console.ReadLine());
 
-if (mas.Length>=3)
+if (num>99)
 {
-    Console.WriteLine(mas[2]);
-}
-else
+while (num>999)
 {
-    Console.WriteLine("третьего числа нет");
+    num = num / 10;
 }
+
+Console.WriteLine(num % 10);
+}
+else 
+{
+    
+Console.WriteLine("третьего числа нет");
+}
+//  string mas =  Convert.ToString(number);
+
+// if (mas.Length>=3)
+// {
+//     Console.WriteLine(mas[2]);
+// }
+// else
+// {
+//     Console.WriteLine("третьего числа нет");
+// }
