@@ -18,4 +18,4 @@ if (a >= b)
     Console.WriteLine("max = " + a + ", min = " + b + ".");
   
 }
-else Console.WriteLine("max = " + b + ", min = " + a + ".");
+else Console.WriteLine ("max = " + b + ", min = " + a + ".");
