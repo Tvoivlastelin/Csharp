@@ -31,4 +31,4 @@ int SumNumberNechIndexArray(int [] array, int Sum)
 
 int[] myArray = GetRandomArray(6,-9,10);
 int summa = SumNumberNechIndexArray(myArray, Sum);
-Console.WriteLine($"[{string.Join( ", " , myArray)}] " + summa);
+Console.WriteLine($"[{string.Join( ", " , myArray)}] -> " + summa);
