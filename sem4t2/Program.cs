@@ -13,7 +13,7 @@
 // string mas =  Convert.ToString(num);
 // for (int i=0; i<mas.Length; i++)
 //   {
-//     sum = sum + mas[i];
+//     sum = sum + (mas[i]-'0');
 //   }
 // Console.Write(sum);
 
