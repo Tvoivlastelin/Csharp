@@ -6,16 +6,19 @@
 Console.WriteLine("Введите первое число ");
 
 string answerA = Console.ReadLine();
-int a = Convert.ToInt32(answerA); 
+int a = Convert.ToInt32(answerA);
 
 Console.WriteLine("Введите второе число ");
 
 string answerB = Console.ReadLine();
-int b = Convert.ToInt32(answerB); 
+int b = Convert.ToInt32(answerB);
 
 if (a >= b)
 {
     Console.WriteLine("max = " + a + ", min = " + b + ".");
-  
+
 }
-else Console.WriteLine ("max = " + b + ", min = " + a + ".");
+else 
+{
+    Console.WriteLine("max = " + b + ", min = " + a + ".");
+}
